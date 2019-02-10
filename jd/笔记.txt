@@ -1,0 +1,14 @@
+# 启动方法
+命令行输入 -> scrapy crawl Jd
+
+# mongo数据库配置信息
+settings.py文件中自行修改配置信息，若未改动本地配置信息，可无需修改直接使用。
+
+# util包裹中productid_spider.py文件说明
+编写初衷是为了比较仅基于selenium+scrapy框架与使用了redis缓存数据库之间爬取速度究竟会相差多少，但暂时发现速度未有太大变化。
+
+# 代码插件版本问题
+请查看requirements.txt文件。
+
+# 存在的问题
+爬取速度上有待优化。
